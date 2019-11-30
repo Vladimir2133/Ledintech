@@ -19,6 +19,10 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+
+}
+a{
+	cursor: pointer;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -52,7 +56,7 @@ q:before, q:after {
 
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows:minmax(145px, auto) minmax(800px, auto) minmax(47px, auto) minmax(40px, auto) minmax(653px, auto);
+	grid-template-rows:minmax(145px, auto) minmax(800px, auto) minmax(47px, auto) minmax(40px, auto) minmax(653px, auto) minmax(330px, 265px);
 	grid-gap: 20px;
 
 }
@@ -116,6 +120,7 @@ font-family: jura,sans-serif;
 
 	display: flex;
 	justify-content: space-between;
+	margin: 10px;
 	
 }
 
@@ -124,6 +129,7 @@ font-family: jura,sans-serif;
 	text-decoration: none;
 	justify-content: space-between;
 	align-items:center;
+
 
 	color: black;
 	text-align: center;
@@ -425,3 +431,99 @@ video{
 	width: 1108px;
 	height: 547px;
 }
+
+
+
+/*======================= FOOTER ====================*/
+
+.footer{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	
+	background-color: #424242 ;
+	color: #fff;
+}
+
+
+.map_site{
+	width: 390px;
+	padding-left: 80px;
+
+	font: normal normal normal 15px/ 'open sans',sans-serif;
+	line-height: 1.8em;
+	
+}
+
+.map_site, .time_work h4{
+	height: 40px;
+
+	display: grid;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.links{
+	margin-top: 25px;
+
+	color: #fff;
+	display: grid;
+}
+
+.ruls{
+	display: flex;
+	justify-content: space-between;	
+	margin-top: 45px;
+}
+
+.links a:hover{
+	color: #E68A00;
+	
+}
+
+	
+.contact{
+	width: 285px;
+	padding-left: 80px;
+
+	display: grid;
+	line-height: 1.8em;
+
+}
+
+.contact h3{
+	display: grid;
+	justify-content: flex-start;
+	align-items: center;
+	
+
+	font:normal normal normal 26px/1.4em 'open sans',sans-serif;
+}
+
+.contact a{
+	height: 30px;
+
+	text-decoration: none;
+	list-style: none;
+
+	color:#fff;
+	font-size: 24px ;
+}
+
+.contact p{
+	height: 30px;	
+	font:normal normal normal 15px'open sans',sans-serif;
+}
+
+.time_work{
+	width: 175px;
+	padding-left: 80px;
+	font: normal normal normal 15px/ 'open sans',sans-serif;
+	line-height: 1.8em;
+}
+
+
+
+/*====================== АДАПТИВ ====================*/
+
+
