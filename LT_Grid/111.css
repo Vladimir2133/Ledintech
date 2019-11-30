@@ -477,16 +477,14 @@ video{
 	width: 285px;
 	padding-left: 80px;
 
-	display: grid;
 	line-height: 1.8em;
-
+	margin-top: 50px;
 }
 
 .contact h3{
 	display: grid;
-	justify-content: flex-start;
 	align-items: center;
-	
+	padding-bottom: 10px;
 
 	font:normal normal normal 26px/1.4em 'open sans',sans-serif;
 }
@@ -502,8 +500,8 @@ video{
 }
 
 .contact p{
-	height: 30px;	
 	font:normal normal normal 15px'open sans',sans-serif;
+	padding-top: 10px;
 }
 
 .time_work{
