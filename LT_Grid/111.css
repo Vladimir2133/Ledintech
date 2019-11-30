@@ -85,17 +85,8 @@ q:before, q:after {
 
 .navigation-item{
 	display: flex;
-	margin-right: 35px;
 	align-items: center;
 	justify-content: flex-end;
-	
-
-
-}
-
-.navigation-item li{
-	display: flex;
-	justify-content: 
 }
 
 .send{
@@ -143,9 +134,9 @@ font-family: jura,sans-serif;
 .top-navigation a{
 	display: grid;
 	max-width: 155px;
-	padding-right: 20px;
 	text-decoration: none;
 	justify-content: space-around;
+	padding-left: 20px;
 	align-items: center;
 
 	text-transform: uppercase;
